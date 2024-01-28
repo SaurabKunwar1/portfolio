@@ -1,0 +1,49 @@
+<%-include partials/header.ejs%>
+<%-include partials/main_nav.ejs%>
+  <!--Main Nav Navigation-->
+  
+<!-- contact.ejs -->
+
+<main class="container">
+  <h1>Contact</h1>
+
+  <div class="contact-details">
+    <h2>Contact Details</h2>
+    <p>Contact no: 437-282-4568</p>
+    <p>Email: saurabkunwar90@gmail.com</p>
+  </div>
+
+  <div class="contact-form">
+    <h2>Contact Form</h2>
+    <form action="/contact" method="POST">
+      <label for="fname">First Name:</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your first name..."><br>
+
+      <label for="lname">Last Name:</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..."><br>
+
+      <label for="cnumber">Contact Number:</label>
+      <input type="text" id="cnumber" name="contactno" placeholder="Your contact number..."><br>
+
+      <label for="email">Email address:</label>
+      <input type="text" id="email" name="email" placeholder="Your email..."><br>
+
+      <label for="message">Your Message:</label>
+      <textarea id="message" name="message" placeholder="Please write your message here..." rows="4"></textarea><br>
+
+      <button class="btn" type="submit">Submit</button>
+    </form>
+  </div>
+</main>
+
+  
+   <!--<h1><%= title %></h1>-->
+   <!--<p>Welcome to <%= title %></p>-->
+   <!--Script section-->
+   
+   <%-include partials/bottom_nav.ejs%>
+   <%-include partials/footer.ejs%>
+
+
+
+

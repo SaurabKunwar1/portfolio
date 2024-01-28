@@ -1,0 +1,46 @@
+<%-include partials/header.ejs%>
+<%-include partials/main_nav.ejs%>
+  <!--Main Nav Navigation-->
+  
+<main class="container">
+  <div class="jumbotron">
+    <h1 class="display-4">Welcome to the <%= title %> Page</h1>
+    </div>
+  </main>
+
+  <div class="project">
+    <h2>Web Development</h2>
+     <img src="data:image/png;base64,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" alt="Web Development" height="50">
+    I have completed my first project of web development where I created my first real estate website. <a href="http://studentweb.cencol.ca/dkhadka2/finaltermproject/finalproject.html" target="_blank" rel="noopener noreferrer">Click on Project1</a> for more details.
+   
+  </div>
+  <br>
+
+  <div class="project">
+    <h2>Website design for Asus ROG</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyAfSg-MhQMRSnvXM2GVs251FGU4EbUVBrN8UV7iGV&s" alt="Website development" height="50">
+    After learning the basics of HTML, CSS and javascript I created a website.<a href="http://studentweb.cencol.ca/dkhadka2/assignment3/assignment3.html" target="blank" rel="Asus Rog">Click here for more details</a>
+  
+  </div>
+
+  <br>
+  <div class="project">
+    <h2>Website design</h2>
+    <img src="https://camo.githubusercontent.com/afb614c0548891ab0b3707bf69b99b2c9101952d8ce21e4607862a7a9eca1dca/68747470733a2f2f692e6962622e636f2f597439737047632f696d6167652e706e67" alt="Fitness Application" height="50">
+    After learning some basics of node.js, express.js and react.js I created a simple fitness application as my latest project.  <a href="https://github.com/Dikshantjung7/project_fitness_app_F23_Team2?tab=readme-ov-file" target="_blank" rel="noopener noreferrer">Github</a>Fitness
+   
+  </div>
+<br>
+
+</main>
+  
+   <!--<h1><%= title %></h1>-->
+   <!--<p>Welcome to <%= title %></p>-->
+   <!--Script section-->
+  
+   <%-include partials/bottom_nav.ejs%>
+   <%-include partials/footer.ejs%>
+
+
+
+
